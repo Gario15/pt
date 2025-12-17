@@ -87,4 +87,5 @@ class Student:
     def average_grade(self):
         if not self.grades:
             return 0
+
         return sum(self.grades) / len(self.grades)
